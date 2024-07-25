@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid rgb(143, 143, 143);
+    padding-bottom: .5rem;
+}
+
+main {
+    text-align: center;
+}
+
+section > img {
+    display: inline-block;
+    text-align: center;
+    padding: 0 auto;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 1rem 0 .5rem;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    padding: 0 0 .5rem;
+    margin-top: 1rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+}
+.genres {
+    margin-bottom: 3rem;
+}
+
+.genres > li {
+    display: inline-block;
+    background-color: rgb(1, 175, 255);
+    border-radius: 99px;
+    margin: .25rem;
+}
+
+.genres > .ver-mais {
+    background-color: black;
+}
+
+section > .cta-button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Fira Sans", sans-serif;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    border-radius: 99px;
+}
+
+a {
+    color: white;
+    display: inline-block;
+    padding: .13rem .5rem;
+    margin: .25rem 1rem;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0 0;
+}
