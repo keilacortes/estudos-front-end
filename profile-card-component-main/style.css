@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+ --background-color: hsl(185, 75%, 39%);
+ --text-color: hsl(227, 10%, 46%);
+ --card-color: hsl(0, 0%, 59%);
+}
