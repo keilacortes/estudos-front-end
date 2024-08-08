@@ -44,4 +44,23 @@ li:hover {
     border: none;
     border-radius: 10px;
     padding: 10px 21px;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .links {
+        flex-direction: column;
+        margin: 50px 0 100px;
+        font-size: 2rem;
+        margin: 15px;
+    }
+    .button {
+        margin-top: 40px;
+    }
 }
