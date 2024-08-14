@@ -9,67 +9,64 @@ body {
 .video {
     background-color: #C4C4C4;
     min-width: 543px;
-    min-height: 217px;
+    min-height: 450px;
 }
 
 .views {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 0.90rem;
+    margin: 4px 0 13px;
 }
 
 h1 {
     font-weight: 700;
-    font-size: 1.25rem;
-}
-
-.description {
-    font-size: 1rem;
+    font-size: 2rem;
+    margin-top: 13px;
 }
 
 .advertising {
     background-color: #C4C4C4;
-    min-width: 270px;
+    text-align: center;
     min-height: 58px;
 }
 
-h2 {
-    font-weight: 700;
-    font-size: 0.90rem;
-}
-
-/* corrigir as thumbs e ajustar o responsivo */
-
 .sugestions {
-    
-    
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 17px;
 }
 
-.sugestions > p {
-    font-weight: 300;
-    font-size: 0.75rem;
+h2 {
+    font-size: .90rem;
+    margin-bottom: 4px;
+}
+
+.thumb-description > p {
+    font-size: .75rem;
 }
 
 .thumb {
     background-color: #C4C4C4;
     width: 100px;
-    height: 71px;
+    min-height: 71px;
+    margin-right: 5px;
 }
 
 main {
     display: flex;
     flex-direction: column;
     grid-area: hero-section;
-    background-color: aquamarine;
 }
 
 aside {
+    max-width: 301px;
     display: flex;
     flex-direction: column;
     grid-area: aside-section;
-    background-color: blueviolet;
 }
 
 .container {
+    height: 100%;
     display: grid;
     gap: 22px;
     grid-template-columns: 75% 25%;
